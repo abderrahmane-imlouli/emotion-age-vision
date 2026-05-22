@@ -1,0 +1,7 @@
+opencv-python
+deepface
+tensorflow
+customtkinter
+pillow
+pyttsx3
+numpy
