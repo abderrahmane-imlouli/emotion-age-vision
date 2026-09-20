@@ -36,15 +36,20 @@ A real-time AI desktop application that detects facial emotions and estimates ag
 ```bash
 git clone https://github.com/your-username/emotion-age-vision.git
 cd emotion-age-vision
-
+```
 2. Create virtual environment
+```
 python -m venv .venv
 .venv\Scripts\activate   # Windows
-
-3. Install dependencies
+```
+4. Install dependencies
+```
 pip install -r requirements.txt
+```
 📌 Run the project
+```
 python test_felling.py
+```
 
 📁 Project Structure
 emotion-age-vision/
@@ -58,8 +63,9 @@ Requires webcam access
 First run may download large AI models (DeepFace/TensorFlow)
 Performance depends on CPU/GPU
 If pyttsx3 fails, install:
+```
 pip install pyttsx3
-
+```
  Future Improvements
 Add gender detection
 Add emotion timeline graph
