@@ -52,12 +52,13 @@ python test_felling.py
 ```
 
 📁 Project Structure
+```
 emotion-age-vision/
 │
 ├── test_felling.py
 ├── requirements.txt
 └── README.md
-
+```
 ⚠️ Notes
 Requires webcam access
 First run may download large AI models (DeepFace/TensorFlow)
